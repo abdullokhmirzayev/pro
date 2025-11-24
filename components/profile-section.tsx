@@ -25,13 +25,13 @@ export default function ProfileSection() {
 					<p className='text-muted-foreground leading-relaxed'>
 						Frontend Software Engineer specializing in creating scalable and
 						user-focused interfaces. I bring together modern engineering
-						practices and thoughtful design. Currently developing at{' '}
+						practices and thoughtful design. Currently Web Development Mentor at{' '}
 						<a
-							href='https://pethub.uz/ru'
+							href='https://www.teamit.uz'
 							target='_blank'
 							className='text-foreground font-semibold hover:underline'
 						>
-							Pethub.uz
+							Teamit.uz
 						</a>{' '}
 						⚡
 					</p>
@@ -43,22 +43,26 @@ export default function ProfileSection() {
 					<div className='flex flex-wrap gap-2'>
 						{[
 							'Next.js',
-							'JavaScript',
 							'React.js',
-							'Tailwind css',
+							'JavaScript',
 							'Shadcn UI',
-							'CSS',
+							'Tailwind css',
+							'CSS3',
+							'HTML5',
 						].map(skill => (
 							<span key={skill} className='text-muted-foreground text-sm'>
 								{skill}
-								{skill !== 'CSS' && <span className='ml-2'>·</span>}
+								{skill !== 'HTML5' && <span className='ml-2'>·</span>}
 							</span>
 						))}
 					</div>
 				</div>
 
 				{/* CTA Button */}
-				<a href='/Frontend CV - Abdulloh Mirzayev.pdf' download='Frontend-CV-Abdulloh-Mirzayev.pdf'>
+				<a
+					href='/Frontend CV - Abdulloh Mirzayev.pdf'
+					download='Frontend-CV-Abdulloh-Mirzayev.pdf'
+				>
 					<Button
 						className='rounded-full px-8 py-6 bg-primary cursor-pointer text-primary-foreground hover:bg-primary/90 font-medium flex items-center gap-2'
 						size='lg'
