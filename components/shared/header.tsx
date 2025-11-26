@@ -3,7 +3,7 @@
 import { useMobile } from '@/components/ui/use-mobile'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import MobileHeader from './ui/mobile-header'
+import MobileHeader from '../ui/mobile-header'
 
 export default function Header() {
 	const isMobile = useMobile()
@@ -12,6 +12,7 @@ export default function Header() {
 	const navLinks = [
 		{ href: '/blog', label: 'Blog', mobile: true },
 		{ href: '/about', label: 'About Me', mobile: true },
+		{ href: '/projects', label: 'Projects', mobile: true },
 		{
 			href: 'https://t.me/abdulloh_io',
 			label: 'Channel',

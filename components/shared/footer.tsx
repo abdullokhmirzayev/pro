@@ -2,8 +2,8 @@
 
 import { format } from 'date-fns'
 import Link from 'next/link'
-import IconSocial from './ui/icon-social'
-import Theme from './ui/theme'
+import IconSocial from '../ui/icon-social'
+import Theme from '../ui/theme'
 
 export default function Footer() {
 	return (
