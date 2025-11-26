@@ -30,6 +30,7 @@ export default function ProfileSection() {
 							href='https://www.teamit.uz'
 							target='_blank'
 							className='text-foreground font-semibold hover:underline'
+							rel='noreferrer'
 						>
 							Teamit.uz
 						</a>{' '}
